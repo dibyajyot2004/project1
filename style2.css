@@ -1,0 +1,30 @@
+.menu
+{
+	font-family: serif;
+	color: antiquewhite;
+}
+.fieldContainer {
+   display: flex;
+   width: 100%;
+   margin-bottom: 15px;
+}
+.icon {
+   font-size: 20px;
+   padding: 5px;
+   background: rgb(11, 9, 116);
+   color: white;
+   min-width: 50px;
+   text-align: center;
+}
+* {
+   box-sizing: border-box;
+}
+.field {
+   font-size: 20px;
+   width: 100%;
+   padding: 10px;
+   outline: none;
+}
+.field:focus {
+   border: 2px solid dodgerblue;
+}

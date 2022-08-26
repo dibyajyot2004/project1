@@ -1,0 +1,3 @@
+
+$("#logout").show();
+$('#login').hide();

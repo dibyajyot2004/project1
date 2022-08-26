@@ -1,0 +1,72 @@
+
+		
+		.navstyle
+		{
+		    background-color: #000000;
+		}
+		.page
+		{
+			font-family: Avengers;
+			color: white;
+			margin-top: 1rem;
+			width: 30%;
+		}
+		#rcorners2 {
+		  border-radius: 15px 50px;
+		  border: 3px solid #112034;
+		  padding: 20px;
+		  width: max-width;
+		  height: max-height;
+		}
+		.menu
+		{
+			font-family: Marvel;
+			color: white;
+			margin-top: 1rem;
+			font-size: 25px;
+		}
+		.buildtext
+		{
+			font-family: Amelarya;
+			font-size: 20px;
+		}
+		.register-form {
+		    padding: 25px 15px;
+		    margin: 50px 0px;
+		    border: 1px solid #ddd;
+		    float: left;
+		    width: 120%;
+		    box-shadow: 0px 0px 10px 0px #cacaca;
+		    border: 5px solid #0d0d2b;
+		    background-color: whitesmoke;
+		}
+		.register-form .form-group {
+		    position: relative;
+		}
+/* Style the input container */
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the form icons */
+  .icon {
+    padding: 20px;
+    background: #0d053e;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  /* Style the input fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  

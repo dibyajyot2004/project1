@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <title>Log-in Page</title>
+    <link rel="stylesheet" href="log.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <body style="background-color: #293145;">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-md-2"></div>
+            <div class="col-sm-6 col-md-8 login-box">
+                <div class="col-sm-12 login-key">
+                </div>
+                <div class="col-sm-12 login-title">
+                    ADMIN LOGIN
+                </div>
+
+                <div class="col-sm-12 login-form">
+                    <div class="col-sm-12 login-form">
+                        <form action="admin.php" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label class="form-control-label">USERNAME</label>
+                                <span class="glyphicon glyphicon-user"></span>
+                                <input type="text" class="form-control" name="usernm">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label">PASSWORD</label>
+                                <span class="glyphicon glyphicon-key"></span>
+                                <input type="password" class="form-control" name="pass" i>
+                            </div>
+
+                            <div class="col-sm-12 loginbttm">
+                                <div class="col-sm-5 login-btm login-text">
+                                    <!-- Error Message -->
+                                </div>
+                                <div class="col-sm-7 login-btm login-button">
+                                    <button type="submit" class="btn btn-outline" style="border-color: #1843a7; background-color: #1749ac;">LOGIN</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-2"></div>
+            </div>
+        </div>
+    </body>
+</html>

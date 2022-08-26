@@ -1,0 +1,87 @@
+
+		@font-face
+		{
+			font-family: Avengers;
+			src: url(heroes/HeroesAssembleBoldExpandtalic-qEn1.ttf);
+		}
+		@font-face
+		{
+			font-family: Marvel;
+			src: url(MarvelRegular-Dj83.ttf);
+		}
+		@font-face
+		{
+			font-family: Amelarya;
+			src: url(AmelaryasPersonalUse-6Ypw1.ttf);
+		}
+		.navstyle
+		{
+		    background-color: #000000;
+		}
+		.page
+		{
+			font-family: Avengers;
+			color: white;
+			margin-top: 1rem;
+			width: 30%;
+		}
+		#rcorners2 {
+		  border-radius: 15px 50px;
+		  border: 3px solid #b30e16;
+		  padding: 20px;
+		  width: max-width;
+		  height: max-height;
+		}
+		.menu
+		{
+			font-family: Marvel;
+			color: white;
+			margin-top: 1rem;
+			font-size: 25px;
+		}
+		.buildtext
+		{
+			font-family: Amelarya;
+			font-size: 20px;
+		}
+		.register-form {
+		    padding: 25px 15px;
+		    margin: 50px 0px;
+		    border: 1px solid #ddd;
+		    float: left;
+		    width: 120%;
+		    box-shadow: 0px 0px 10px 0px #cacaca;
+		    border-left: 5px solid #b30e16;
+			border-right: 5px solid #b30e16;;
+		    background-color: whitesmoke;
+		}
+		.register-form .form-group {
+		    position: relative;
+		}
+/* Style the input container */
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the form icons */
+  .icon {
+    padding: 20px;
+    background: #b30e16;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  /* Style the input fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  
